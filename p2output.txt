@@ -1,1 +1,16 @@
-
+~/ppa-IA2-practice2$ ./a.out
+enter the side value
+1
+enter the side value
+2
+enter the side value
+3
+The triangle with sides 1   2   3 is scalene Triangle
+~/ppa-IA2-practice2$ ./a.out
+enter the side value
+3
+enter the side value
+3
+enter the side value
+3
+The triangle with sides 3   3   3 is not scalene Triangle
