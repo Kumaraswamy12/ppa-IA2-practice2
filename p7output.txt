@@ -1,1 +1,5 @@
-
+~/ppa-IA2-practice2$ ./a.out
+Enter the Base and altitude
+2
+3
+The area of triangle with base=2.000000 and altitude=3.000000 is 3.000000
