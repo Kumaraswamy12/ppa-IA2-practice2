@@ -1,31 +1,29 @@
 #include <stdio.h>
-#include <math.h>
-float input()
+int input()
 {
-    float a;
+    int a;
     printf("Enter the value\n");
-    scanf("%f", &a);
+    scanf("%d", &a);
     return a;
 }
-float my_sqrt(float n)
+int gcd(int a, int b)
 {
-    float s = n / 2, t = 0.0;
-    while (fabs(s - t) > .000001)
-    {
-        t = s;
-        s = (n / t + t) / 2;
-    }
-    return s;
+    int c;
+    for (int i = 1; i < a || i < b; i++)
+        if (a % i == 0 && b % i == 0)
+            c = i;
+    return c;
 }
-void output(float n, float sqrt_result)
+void output(int a, int b, int gcd)
 {
-    printf("The sqrt of %f is %f\n", n, sqrt_result);
+    printf("input: %d\t%d\toutput: %d\n", a, b, gcd);
 }
 int main()
 {
-    float n, sqrt_result;
-    n = input();
-    sqrt_result = my_sqrt(n);
-    output(n, sqrt_result);
+    int n1, n2, hcf;
+    n1 = input();
+    n2 = input();
+    hcf = gcd(n1, n2);
+    output(n1, n2, hcf);
     return 0;
 }

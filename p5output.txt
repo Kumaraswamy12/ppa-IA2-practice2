@@ -1,11 +1,5 @@
 Enter the value
-25
-The sqrt of 25.000000 is 5.000000
-~/ppa-IA2-practice2$ ./a.out
+12
 Enter the value
-4
-The sqrt of 4.000000 is 2.000000
-~/ppa-IA2-practice2$ ./a.out
-Enter the value
-24
-The sqrt of 24.000000 is 4.898979
+16
+input: 12   16  output: 4
