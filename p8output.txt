@@ -1,1 +1,12 @@
-
+Enter the number of triangles
+2
+Enter the base and altitude of triangle1
+2 3
+Enter the base and altitude of triangle2
+4 6
+the smallest of triangles with base and height
+2.000000    3.000000
+4.000000    6.000000
+is
+The triangle with base=2.000000 height=3.000000
+The area of triangle with base=2.000000 height=3.000000 is 3.000000
